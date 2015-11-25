@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASNeighborList	AStar.h	/^typedef struct __ASNeighborList *ASNeighborList;$/;"	t	typeref:struct:__ASNeighborList
+ASNeighborListAdd	AStar.c	/^void ASNeighborListAdd(ASNeighborList list, void *node, float edgeCost)$/;"	f
+ASPath	AStar.h	/^typedef struct __ASPath *ASPath;$/;"	t	typeref:struct:__ASPath
+ASPathCopy	AStar.c	/^ASPath ASPathCopy(ASPath path)$/;"	f
+ASPathCreate	AStar.c	/^ASPath ASPathCreate(const ASPathNodeSource *source, void *context, void *startNodeKey, void *goalNodeKey)$/;"	f
+ASPathDestroy	AStar.c	/^void ASPathDestroy(ASPath path)$/;"	f
+ASPathGetCost	AStar.c	/^float ASPathGetCost(ASPath path)$/;"	f
+ASPathGetCount	AStar.c	/^size_t ASPathGetCount(ASPath path)$/;"	f
+ASPathGetNode	AStar.c	/^void *ASPathGetNode(ASPath path, size_t index)$/;"	f
+ASPathNodeSource	AStar.h	/^} ASPathNodeSource;$/;"	t	typeref:struct:__anon1
+AStar_h	AStar.h	31;"	d
+AddNodeToClosedSet	AStar.c	/^static inline void AddNodeToClosedSet(Node n)$/;"	f	file:
+AddNodeToOpenSet	AStar.c	/^static inline void AddNodeToOpenSet(Node n, float cost, Node parent)$/;"	f	file:
+DidInsertIntoOpenSetAtIndex	AStar.c	/^static inline void DidInsertIntoOpenSetAtIndex(VisitedNodes nodes, size_t index)$/;"	f	file:
+DidRemoveFromOpenSetAtIndex	AStar.c	/^static inline void DidRemoveFromOpenSetAtIndex(VisitedNodes nodes, size_t index)$/;"	f	file:
+GetNode	AStar.c	/^static inline Node GetNode(VisitedNodes nodes, void *nodeKey)$/;"	f	file:
+GetNodeCost	AStar.c	/^static inline float GetNodeCost(Node n)$/;"	f	file:
+GetNodeEstimatedCost	AStar.c	/^static inline float GetNodeEstimatedCost(Node n)$/;"	f	file:
+GetNodeKey	AStar.c	/^static inline void *GetNodeKey(Node node)$/;"	f	file:
+GetNodeRank	AStar.c	/^static inline float GetNodeRank(Node n)$/;"	f	file:
+GetOpenNode	AStar.c	/^static inline Node GetOpenNode(VisitedNodes nodes)$/;"	f	file:
+GetParentNode	AStar.c	/^static inline Node GetParentNode(Node n)$/;"	f	file:
+GetPathCostHeuristic	AStar.c	/^static inline float GetPathCostHeuristic(Node a, Node b)$/;"	f	file:
+HasOpenNode	AStar.c	/^static inline int HasOpenNode(VisitedNodes nodes)$/;"	f	file:
+NeighborListCreate	AStar.c	/^static inline ASNeighborList NeighborListCreate(const ASPathNodeSource *source)$/;"	f	file:
+NeighborListDestroy	AStar.c	/^static inline void NeighborListDestroy(ASNeighborList list)$/;"	f	file:
+NeighborListGetEdgeCost	AStar.c	/^static inline float NeighborListGetEdgeCost(ASNeighborList list, size_t index)$/;"	f	file:
+NeighborListGetNodeKey	AStar.c	/^static void *NeighborListGetNodeKey(ASNeighborList list, size_t index)$/;"	f	file:
+Node	AStar.c	/^} Node;$/;"	t	typeref:struct:__anon3	file:
+NodeGetRecord	AStar.c	/^static inline NodeRecord *NodeGetRecord(Node node)$/;"	f	file:
+NodeHasEstimatedCost	AStar.c	/^static inline int NodeHasEstimatedCost(Node n)$/;"	f	file:
+NodeIsGoal	AStar.c	/^static inline int NodeIsGoal(Node n)$/;"	f	file:
+NodeIsInClosedSet	AStar.c	/^static inline int NodeIsInClosedSet(Node n)$/;"	f	file:
+NodeIsInOpenSet	AStar.c	/^static inline int NodeIsInOpenSet(Node n)$/;"	f	file:
+NodeIsNull	AStar.c	/^static inline int NodeIsNull(Node n)$/;"	f	file:
+NodeKeyCompare	AStar.c	/^static inline int NodeKeyCompare(Node node, void *nodeKey)$/;"	f	file:
+NodeMake	AStar.c	/^static inline Node NodeMake(VisitedNodes nodes, size_t index)$/;"	f	file:
+NodeNull	AStar.c	/^static const Node NodeNull = {NULL, -1};$/;"	v	file:
+NodeRankCompare	AStar.c	/^static inline int NodeRankCompare(Node n1, Node n2)$/;"	f	file:
+NodeRecord	AStar.c	/^} NodeRecord;$/;"	t	typeref:struct:__anon2	file:
+RemoveNodeFromClosedSet	AStar.c	/^static inline void RemoveNodeFromClosedSet(Node n)$/;"	f	file:
+RemoveNodeFromOpenSet	AStar.c	/^static inline void RemoveNodeFromOpenSet(Node n)$/;"	f	file:
+SetNodeEstimatedCost	AStar.c	/^static inline void SetNodeEstimatedCost(Node n, float estimatedCost)$/;"	f	file:
+SetNodeIsGoal	AStar.c	/^static inline void SetNodeIsGoal(Node n)$/;"	f	file:
+SwapOpenSetNodesAtIndexes	AStar.c	/^static inline void SwapOpenSetNodesAtIndexes(VisitedNodes nodes, size_t index1, size_t index2)$/;"	f	file:
+VisitedNodes	AStar.c	/^typedef struct __VisitedNodes *VisitedNodes;$/;"	t	typeref:struct:__VisitedNodes	file:
+VisitedNodesCreate	AStar.c	/^static inline VisitedNodes VisitedNodesCreate(const ASPathNodeSource *source, void *context)$/;"	f	file:
+VisitedNodesDestroy	AStar.c	/^static inline void VisitedNodesDestroy(VisitedNodes visitedNodes)$/;"	f	file:
+__ASNeighborList	AStar.c	/^struct __ASNeighborList {$/;"	s	file:
+__ASPath	AStar.c	/^struct __ASPath {$/;"	s	file:
+__VisitedNodes	AStar.c	/^struct __VisitedNodes {$/;"	s	file:
+capacity	AStar.c	/^    size_t capacity;$/;"	m	struct:__ASNeighborList	file:
+context	AStar.c	/^    void *context;$/;"	m	struct:__VisitedNodes	file:
+cost	AStar.c	/^    float cost;$/;"	m	struct:__ASPath	file:
+cost	AStar.c	/^    float cost;$/;"	m	struct:__anon2	file:
+costs	AStar.c	/^    float *costs;$/;"	m	struct:__ASNeighborList	file:
+count	AStar.c	/^    size_t count;$/;"	m	struct:__ASNeighborList	file:
+count	AStar.c	/^    size_t count;$/;"	m	struct:__ASPath	file:
+earlyExit	AStar.h	/^    int     (*earlyExit)(size_t visitedCount, void *visitingNode, void *goalNode, void *context);   \/\/ early termination, return 1 for success, -1 for failure, 0 to continue searching -- optional$/;"	m	struct:__anon1
+estimatedCost	AStar.c	/^    float estimatedCost;$/;"	m	struct:__anon2	file:
+hasEstimatedCost	AStar.c	/^    unsigned hasEstimatedCost:1;$/;"	m	struct:__anon2	file:
+hasParent	AStar.c	/^    unsigned hasParent:1;$/;"	m	struct:__anon2	file:
+index	AStar.c	/^    size_t index;$/;"	m	struct:__anon3	file:
+isClosed	AStar.c	/^    unsigned isClosed:1;$/;"	m	struct:__anon2	file:
+isGoal	AStar.c	/^    unsigned isGoal:1;$/;"	m	struct:__anon2	file:
+isOpen	AStar.c	/^    unsigned isOpen:1;$/;"	m	struct:__anon2	file:
+nodeComparator	AStar.h	/^    int     (*nodeComparator)(void *node1, void *node2, void *context);                             \/\/ must return a sort order for the nodes (-1, 0, 1) -- optional, uses memcmp if not specified$/;"	m	struct:__anon1
+nodeKey	AStar.c	/^    int8_t nodeKey[];$/;"	m	struct:__anon2	file:
+nodeKeys	AStar.c	/^    int8_t nodeKeys[];$/;"	m	struct:__ASPath	file:
+nodeKeys	AStar.c	/^    void *nodeKeys;$/;"	m	struct:__ASNeighborList	file:
+nodeNeighbors	AStar.h	/^    void    (*nodeNeighbors)(ASNeighborList neighbors, void *node, void *context);                  \/\/ add nodes to the neighbor list if they are connected to this node$/;"	m	struct:__anon1
+nodeRecords	AStar.c	/^    void *nodeRecords;$/;"	m	struct:__VisitedNodes	file:
+nodeRecordsCapacity	AStar.c	/^    size_t nodeRecordsCapacity;$/;"	m	struct:__VisitedNodes	file:
+nodeRecordsCount	AStar.c	/^    size_t nodeRecordsCount;$/;"	m	struct:__VisitedNodes	file:
+nodeRecordsIndex	AStar.c	/^    size_t *nodeRecordsIndex;           \/\/ array of nodeRecords indexes, kept sorted by nodeRecords[i]->nodeKey using source->nodeComparator$/;"	m	struct:__VisitedNodes	file:
+nodeSize	AStar.c	/^    size_t nodeSize;$/;"	m	struct:__ASPath	file:
+nodeSize	AStar.h	/^    size_t  nodeSize;                                                                               \/\/ the size of the structure being used for the nodes - important since nodes are copied into the resulting path$/;"	m	struct:__anon1
+nodes	AStar.c	/^    VisitedNodes nodes;$/;"	m	struct:__anon3	file:
+openIndex	AStar.c	/^    size_t openIndex;$/;"	m	struct:__anon2	file:
+openNodes	AStar.c	/^    size_t *openNodes;                  \/\/ binary heap of nodeRecords indexes, sorted by the nodeRecords[i]->rank$/;"	m	struct:__VisitedNodes	file:
+openNodesCapacity	AStar.c	/^    size_t openNodesCapacity;$/;"	m	struct:__VisitedNodes	file:
+openNodesCount	AStar.c	/^    size_t openNodesCount;$/;"	m	struct:__VisitedNodes	file:
+parentIndex	AStar.c	/^    size_t parentIndex;$/;"	m	struct:__anon2	file:
+pathCostHeuristic	AStar.h	/^    float   (*pathCostHeuristic)(void *fromNode, void *toNode, void *context);                      \/\/ estimated cost to transition from the first node to the second node -- optional, uses 0 if not specified$/;"	m	struct:__anon1
+source	AStar.c	/^    const ASPathNodeSource *source;$/;"	m	struct:__ASNeighborList	file:
+source	AStar.c	/^    const ASPathNodeSource *source;$/;"	m	struct:__VisitedNodes	file:
+window	OSX Demo/Pathfinding/AppDelegate.h	/^@property (assign) IBOutlet NSWindow *window;$/;"	v
