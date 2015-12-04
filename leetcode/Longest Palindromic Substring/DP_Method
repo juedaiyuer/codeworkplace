@@ -1,0 +1,29 @@
+ 1 class Solution {
+ 2 public:
+ 3     string longestPalindrome(string s) {
+ 4         int len = s.length(), max = 1, ss = 0, tt = 0;
+ 5         bool flag[len][len];
+ 6         for (int i = 0; i < len; i++)                   //shi fou li jie wei hui wen dao zhi 
+ 7             for (int j = 0; j < len; j++)
+ 8                 if (i >= j)
+ 9                     flag[i][j] = true;
+10                 else flag[i][j] = false;
+
+11         for (int j = 1; j < len; j++)                   // 两个for循环之间的位置
+12             for (int i = 0; i < j; i++)
+13             {
+14                 if (s[i] == s[j])
+15                 {
+16                     flag[i][j] = flag[i+1][j-1];          //1.回文的字串仍是回文   2.Palindrome substring is still a palindrome 3.不用再次判断s[i]==s[j]?
+17                     if (flag[i][j] == true && j - i + 1 > max)
+18                     {
+19                         max = j - i + 1;
+20                         ss = i;
+21                         tt = j;
+22                     }
+23                 }
+24                 else flag[i][j] = false;
+25             }
+26         return s.substr(ss, max);
+27     }
+28 };
