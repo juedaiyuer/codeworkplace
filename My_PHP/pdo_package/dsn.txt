@@ -1,0 +1,1 @@
+mysql:dbname=imooc;host=localhost
