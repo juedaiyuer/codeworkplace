@@ -55,3 +55,13 @@ class Db {
 	}
 	
 }
+
+//test
+/**
+$connect = Db::getInstance()->connect();
+
+$sql = "select * from ±íÃû";
+$result = mysql_query($sql,$connect);
+echo mysql_num_rows($result);
+var_dump($result);
+*/
