@@ -15,7 +15,7 @@ EOF;
 	var_dump($res);	
 	$sql='INSERT user(username,password,email) VALUES("king","'.md5('king').'","imooc@qq.com")';
 	//echo $sql;
-	$res=$pdo->exec($sql);
+	$res=$pdo->exec($sql); //返回受影响的条数
 	echo $res;
 }catch(PDOException $e){
 	echo $e->getMessage();
