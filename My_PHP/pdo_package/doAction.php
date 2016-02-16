@@ -7,7 +7,7 @@ try{
 	//echo $pdo->quote($username);
 	//$sql="select * from user where username='{$username}' and password='{$password}'";
 	//echo $sql;
-	//通过quote():返回带引号的字符串，过滤字符串中的特殊字符
+	//通过quote():返回带引号的字符串，过滤字符串中的特殊字符,特殊字符反斜线引入
 	$username=$pdo->quote($username);
 	$sql="select * from user where username={$username} and password='{$password}'";
 	echo $sql;
