@@ -1,4 +1,8 @@
-<?php 
+<?php
+/**
+1.操作数据库的封装，PDO操作MySQL
+
+*/ 
 //header('content-type:text/html;charset=utf-8');
 class PdoMySQL{
 	public static $config=array();//设置连接参数，配置信息
@@ -20,6 +24,7 @@ class PdoMySQL{
 		if(!class_exists("PDO")){
 			self::throw_exception('不支持PDO，请先开启');
 		}
+		// 如果没有传递参数，使用默认配置连接
 		if(!is_array($dbConfig)){
 			$dbConfig=array(
 			'hostname'=>DB_HOST,
