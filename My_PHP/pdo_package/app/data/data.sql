@@ -1,3 +1,7 @@
+/*
+1.建表文件
+*/
+
 CREATE TABLE IF NOT EXISTS `user` ( 
   `id` int(11) NOT NULL AUTO_INCREMENT KEY, 
   `username` varchar(30) NOT NULL COMMENT '用户名', 
