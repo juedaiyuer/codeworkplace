@@ -31,3 +31,6 @@ My_PHP代码区的代码说明
 
 6.page_static
   PHP的页面静态化方法
+
+7.PHP_MVC
+  MVC编程模式
