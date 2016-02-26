@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Demo</title>
+<title>jQuery实现Ajax请求</title>
 <style>
 body, input, select, button, h1 {
 	font-size: 28px;
@@ -35,12 +35,20 @@ body, input, select, button, h1 {
 <button id="save">保存</button>
 <p id="createResult"></p>
 
+<!--在线引入jQuery库-->
 <script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.js"></script>
 <script>
+<!---->
+//jQuery文档就绪函数
 $(document).ready(function(){ 
+	/**
+	1.jquery选择器
+	2.事件方法
+	3.$(selector).val() 返回或设置被选元素的值
+	*/
 	$("#search").click(function(){ 
 		$.ajax({ 
-		    type: "GET", 	
+		        type: "GET", 	
 			url: "http://127.0.0.1:8080/ajaxdemo/serverjson2.php?number=" + $("#keyword").val(),
 			dataType: "json",
 			success: function(data) {

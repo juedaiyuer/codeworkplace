@@ -36,7 +36,12 @@ body, input, select, button, h1 {
 <p id="createResult"></p>
 
 <script>
-document.getElementById("search").onclick = function() { 
+document.getElementById("search").onclick = function() {
+	/**
+        1.为search按钮添加点击事件
+        2.发送Ajax查询请求并处理	
+	3.innerHTML是JS的双向功能,获得对象的内容,向对象插入内容
+        */
 	var request = new XMLHttpRequest();
 	request.open("GET", "server.php?number=" + document.getElementById("keyword").value);
 	request.send();
