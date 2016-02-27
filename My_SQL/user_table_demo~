@@ -1,0 +1,9 @@
+/**
+1.建立user用户表的SQL语句
+*/
+
+CREATE TABLE user(
+id smallint unsigned auto_increment key,
+username varchar(50) not null,
+password varchar(50) not null
+);
