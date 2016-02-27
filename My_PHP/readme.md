@@ -34,3 +34,9 @@ My_PHP代码区的代码说明
 
 7.PHP_MVC
   MVC编程模式
+
+8.identifying_code
+  PHP实现验证码的功能
+  
+  存在问题:
+  1.form.php中html代码单独存在的时候,表单显示正常,前面加入php代码之后,不再显示
