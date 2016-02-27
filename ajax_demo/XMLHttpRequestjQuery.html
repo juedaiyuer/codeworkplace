@@ -45,6 +45,8 @@ $(document).ready(function(){
 	1.jquery选择器
 	2.事件方法
 	3.$(selector).val() 返回或设置被选元素的值
+	4.$.ajax()函数的详细说明
+	  http://www.w3school.com.cn/jquery/ajax_ajax.asp 
 	*/
 	$("#search").click(function(){ 
 		$.ajax({ 
@@ -66,7 +68,7 @@ $(document).ready(function(){
 	
 	$("#save").click(function(){ 
 		$.ajax({ 
-		    type: "POST", 	
+		        type: "POST", 	
 			url: "serverjson.php",
 			data: {
 				name: $("#staffName").val(), 
