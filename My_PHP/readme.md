@@ -6,14 +6,10 @@ My_PHP代码区的代码说明
   面向对象的类的封装
   
   参考如下:
-  1.慕课网---PHP实现文件上传与下载
-    http://www.imooc.com/learn/219
-  2.PHP官方手册---POST方法上传(中文版)
-    http://php.net/manual/zh/features.file-upload.post-method.php
+  1.[PHP官方手册---POST方法上传(中文版)](http://php.net/manual/zh/features.file-upload.post-method.php)
 
   个人笔记记录:
-  1.PHP文件上传下载
-    http://blog.csdn.net/alive2012/article/details/50688222
+  1.[PHP文件上传下载](http://blog.csdn.net/alive2012/article/details/50688222)
 
 
 2.pdo_package
@@ -40,3 +36,11 @@ My_PHP代码区的代码说明
   
   存在问题:
   1.form.php中html代码单独存在的时候,表单显示正常,前面加入php代码之后,不再显示
+
+9.page_phpMysql
+  实现PHP-MySQL分页技术,但是未实现类的封装
+  
+  实现功能:
+  1.设定显示页码5
+  2.显示页码前后的省略号显示
+  3.页码灰色显示
