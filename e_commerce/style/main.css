@@ -1,0 +1,25 @@
+/*公用*/
+.comWidth{width:1000px;margin-left:auto;margin-right:auto;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+/*topBar*/
+/*背景颜色 类似于浅灰色*/
+.topBar{height:31px;background-color:#F7F7F7; line-height:31px;}
+/*收藏未设置icon图标,字体设置为粗体*/
+.collection{font-weight:bold;}
+.topBar a:hover{color:red;}
+/*logoBar*/
+.logoBar{height:85px;background-color:#1D7AD9;}
+.logo{padding-left:41px;padding-top:13px;}
+
+/**
+1.searchbox 搜索框架的设定
+2.搜索按钮背景颜色,设定为黄色#FF8C00
+*/
+.search_box{width:430px;padding-top:23px;padding-left:185px; }
+.search_text{width:350px;height:35px;line-height:35px\9;/*css hack \9代表所有的ie浏览器*/ padding:0 5px;background-color:#FFF; }
+.search_btn{width:70px;height:35px;font-size:14px;font-family:"Microsoft YaHei","微软雅黑";background-color:#FF8C00;color:#FFF;}
+
+/*购物车*/
+.shopCar{width:145px;height:35px;background-color:#FF8C00;margin-top:23px; }
+.shopText{/*font-size:14px;font-family:"Microsoft YaHei","微软雅黑";line-height:35px;下面的代码实现了缩写简化 */ font:14px/35px "Microsoft YaHei","微软雅黑";  color:#FFF;height:100%;width:87px;border-right:#E27A00 solid 1px;background:url(/usr/codeworkplace/e_commerce/images/icon/shop.jpg) 10px center no-repeat;text-indent:40px; }
