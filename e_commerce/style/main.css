@@ -21,5 +21,17 @@
 .search_btn{width:70px;height:35px;font-size:14px;font-family:"Microsoft YaHei","微软雅黑";background-color:#FF8C00;color:#FFF;}
 
 /*购物车*/
-.shopCar{width:145px;height:35px;background-color:#FF8C00;margin-top:23px; }
-.shopText{/*font-size:14px;font-family:"Microsoft YaHei","微软雅黑";line-height:35px;下面的代码实现了缩写简化 */ font:14px/35px "Microsoft YaHei","微软雅黑";  color:#FFF;height:100%;width:87px;border-right:#E27A00 solid 1px;background:url(/usr/codeworkplace/e_commerce/images/icon/shop.jpg) 10px center no-repeat;text-indent:40px; }
+
+.shopCar{width:145px;height:35px;background-color:#FF8C00;margin-top:23px;/*font-size:14px;font-family:"Microsoft YaHei","微软雅黑";line-height:35px;下面的代码实现了缩写简化 */   font:14px/35px "Microsoft YaHei","微软雅黑";margin-right:59px;  }
+.shopText{ color:#FFF;height:100%;width:87px;border-right:#E27A00 solid 1px;background:url(/usr/codeworkplace/e_commerce/images/icon/shop.jpg) 10px center no-repeat;text-indent:40px; }
+.shopNum{width:27px;height:35px;border-left:#FF9C01 solid 1px;background:url(/usr/codeworkplace/e_commerce/images/icon/sj.jpg ) 33px center no-repeat;text-align:right;padding-right:29px; }
+
+/*导航栏*/
+
+.navBox{height:35px;background-color:#1369C0;color:#FFF; }
+.shopClass{width:190px;text-align:center; line-height:35px; }
+.shopClass i {width:11px;height:7px;overflow:hidden; background:url(/usr/codeworkplace/e_commerce/images/icon/down.jpg) left center no-repeat;display:inline-block;margin-left:11px;   }
+.nav,.shopClass{font-family:"Microsoft YaHei","微软雅黑";}
+.nav{line-height:35px; }
+.nav li{float:left;}
+.nav a{height:35px;display:inline-block;padding:0 35px; }
