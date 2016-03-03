@@ -29,9 +29,19 @@
 /*导航栏*/
 
 .navBox{height:35px;background-color:#1369C0;color:#FFF; }
-.shopClass{width:190px;text-align:center; line-height:35px; }
+.shopClass{width:190px;  }
+.shopClass h3{ text-align:center;line-height:35px; }
 .shopClass i {width:11px;height:7px;overflow:hidden; background:url(/usr/codeworkplace/e_commerce/images/icon/down.jpg) left center no-repeat;display:inline-block;margin-left:11px;   }
 .nav,.shopClass{font-family:"Microsoft YaHei","微软雅黑";}
 .nav{line-height:35px; }
 .nav li{float:left;}
-.nav a{height:35px;display:inline-block;padding:0 35px; }
+.nav a{height:35px;display:inline-block;padding:0 35px;color:#FFF; }
+.nav .active { background-color:#4593FD;  }
+
+/*商品弹出列表*/
+
+.shopClass_show{ background-color:#4593FD;    }
+.shopClass_item {padding:14px 10px; }
+.shopClass_item dt{height:22px; }
+.shopClass_item .b { font:14px/1 "Microsoft YaHei","微软雅黑"; }
+.shopClass_item a{color:#FFF; }

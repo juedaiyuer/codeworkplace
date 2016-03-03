@@ -3,6 +3,6 @@
 
 
 5.导航栏
-  navBox
-  
+  navBox  
+  display inline-block 
   
