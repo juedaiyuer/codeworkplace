@@ -146,6 +146,46 @@ W3C标准,倡导结构,样式,行为分离
 网页换肤 结构和表现分离
 
 
+#行高#
+line-height  
+两个基线的距离  
+
+所有内联元素的样式都与行内框盒子模型有关,例如浮动的图文环绕效果  
+
+*行内框盒子模型*
+1.内容区域(content area)
+2.内联盒子(inline boxes),不会让内容成块显示,而是排成一排
+3.行框盒子(line boxes),每一行就是一个行框盒子
+4.包含盒子(containing box)
+
+内联元素的高度是由line-height决定的,可以控制高度...  
+高度表现:内容区域+行间距  
+
+*内容区域*
+字号font-size  
+字体font-family  
+在simsun字体下,内容区域高度等于文字大小值  
+
+simsun(宋体)  
+
+
+行框盒子里面混入inline-block水平元素(图片),高度如何表现
+
+
+*行高属性*
+1.normal 浏览器差异,元素字体相关联  
+2.number line-height=font-size*number  
+3.length eg: 1.5em 1.5rem 20px 20pt  
+4.percent(%) line-height:font-size*percent  
+5.inherit 
+
+*body全局数值行高使用经验*
+-博客 1.5 1.6
+-面向用户的网页 匹配20px的使用经验(20px/font-size=line-height)
+
+
+
+
 
 
 
