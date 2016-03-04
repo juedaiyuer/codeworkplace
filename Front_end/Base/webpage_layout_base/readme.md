@@ -180,8 +180,19 @@ simsun(宋体)
 5.inherit 
 
 *body全局数值行高使用经验*
--博客 1.5 1.6
--面向用户的网页 匹配20px的使用经验(20px/font-size=line-height)
+-博客 1.5 1.6  
+-面向用户的网页 匹配20px的使用经验(20px/font-size=line-height)  
+
+
+
+*消除图片底部间隙的方法*
+1.图片块状化 img{display:block;}  
+2.图片底线对齐 img{vertical-align:bottom;}  
+3.行高足够小-基线位置上移 .box{line-height:0;}  
+
+*实际应用*
+1.大小不固定的图片,多行文字垂直居中  
+
 
 
 
