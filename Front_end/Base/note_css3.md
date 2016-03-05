@@ -1,4 +1,8 @@
 #CSS个人笔记#
+
+1. src [十天精通CSS3](http://www.imooc.com/learn/33)
+
+
 ##圆角效果##
 1.背景图片,元素拼凑  
 2.border-radius(css3效果)  
@@ -37,7 +41,10 @@ rgba(r,g,b,透明度);
 *渐变类型*
 linear(线性渐变) radial(径向渐变)
 
+linear-gradient
 渐变类型 (渐变方向,颜色值(start),...,颜色值(end))
+
+[CSS3 经典教程系列：CSS3 线性渐变（linear-gradient）](http://www.cnblogs.com/lhb25/archive/2013/01/30/css3-linear-gradient.html)
 
 ##文字和字体##
 
@@ -72,5 +79,80 @@ linear(线性渐变) radial(径向渐变)
 	
 	//背景图片大小
 	background-size: auto | <长度值> | <百分比> | cover | contain
+
+##CSS选择器##
+**结构性伪选择器**
+1. 根选择器 :root
+2. 否定选择器 :not
+3. :empty 没有内容的元素
+4. #(url):target
+5. :first-child父元素的第一个子元素   
+   :last-child   
+	ul>li:last-child{background:blue}  
+   :nth-child(){}  
+   :nth-last-child(){} 最后的子元素算起  
+   :first-of-type() 定位父元素下的某类型的第一个子元素 :last-of-type()  
+   :nth-of-type(n) :nth-last-of-type(n)  
+   :only-child()  
+   :only-of-type()  
+6. :enabled选择器 可用选择器 :disabled选择器  
+   :checked 选中状态  
+   ::selection 用来匹配突出显示的文本(鼠标选择的文本)  
+   Firefox增加前缀 -moz-  
+   :read-only 指定处于只读状态的元素,该元素要设置readonly='readonly'  
+   :read-write 
+
+##旋转##
+
+1. rotate() 旋转
+2. skew() 扭曲
+3. scale() 缩放
+4. translate() 位移
+5.  matrix() 
+6.  transfrom-origin() 定位图形的原点
+7. transition 过渡属性
+8. keyframes 关键帧
+   animation-name属性 调用@keyframes定义好的动画  
+   animation-duration 动画持续时间  
+   animation-timing-function 动画播放方式  
+   animation-delay 设置动画开始播放的时间  
+   animation-iteration-count 定义动画播放的次数 infinite 无限次播放  
+   animation-direction 动画播放方向 normal向前播放 alternate 偶次向前,奇次向反  
+   animation-play-state 控制元素动画的播放状态 running paused  
+   animation-fill-mode 设置动画时间外属性  
+
+##布局样式##
+
+>CSS Multi Column Layout Module
+1. columns: col_width col_num 多列布局
+2. column-width:auto | length
+3. column-count:auto | num
+4. column-gap:normal | length  normal(font-size 默认是1em,间隔就是font-size的数值)
+5. column-rule,边框宽度,边框样式,边框颜色   
+   边框样式:none、hidden、dotted、dashed、solid、double、groove、ridge、inset、outset  
+6. box-sizing:content-box | border-box | inherit  
+   
+**伸缩布局(CSS3新特性)**
+1. 创建一个flex容器
+	.flexcontainer{ display: -webkit-flex; display: flex; }
+2. Flex项目列显示
+	.flexcontainer{ display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; }
+
+
+##媒体类型##
+>解决不同终端显示问题
+>CSS3的Media Queries模块让一个页面适应不同的终端(或屏幕尺寸)
+
+1. 最大宽度 max-width
+2. 最小宽度 min-width
+3. 设备屏幕的输出宽度 Device Width
+
+**Responsive**
+
+1. 自动缩放属性 resize
+2. 外轮廓属性 outline
+
+
+
 
 
