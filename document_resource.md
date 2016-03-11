@@ -19,3 +19,10 @@
 ##写作工具##
 1. markdown web版:简书
 [简书](http://www.jianshu.com/)
+
+
+##道友##
+
+**博客园**
+[秋水Thinking](http://www.cnblogs.com/hnrainll/category/234345.html)
+
