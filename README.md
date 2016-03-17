@@ -35,7 +35,18 @@
 [秋水Thinking](http://www.cnblogs.com/hnrainll/category/234345.html)
 
 
+---
 
+##使用工具##
+
+1. github (高度整理的知识仓库)
+2. csdn (整理度高)
+3. evernote (抓取资料,整理度尚可,笔记程度一般)
+4. 百度云 (整理度最差,资料存放地)
+
+
+
+---
 
 
 
