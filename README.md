@@ -32,8 +32,8 @@
 ##道友##
 
 **博客园**
-[秋水Thinking](http://www.cnblogs.com/hnrainll/category/234345.html)
-[廖雪峰](http://www.liaoxuefeng.com/)
+1. [秋水Thinking](http://www.cnblogs.com/hnrainll/category/234345.html)
+2. [廖雪峰](http://www.liaoxuefeng.com/)
 
 
 ---
