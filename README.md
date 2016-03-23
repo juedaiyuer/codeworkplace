@@ -5,6 +5,8 @@
 1. [W3school](http://www.w3school.com.cn/)
 2. [PHP手册(中文版)](http://php.net/manual/zh/)
 3. [cplusplus](http://www.cplusplus.com/)
+4. [伯乐在线文档](https://github.com/jobbole)
+5. [计算机编程类中文书籍](https://github.com/juedaiyuer/free-programming-books-zh_CN)
 
 ---
 
