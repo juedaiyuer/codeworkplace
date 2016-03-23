@@ -20,6 +20,8 @@
 1. [网易云课堂](http://study.163.com/)
 2. [慕课网](http://www.imooc.com/)
 3. [实验楼](https://www.shiyanlou.com/)
+4. [csdn](http://www.csdn.net/)
+5. [博客园](http://www.cnblogs.com/)
 
 ---
 
