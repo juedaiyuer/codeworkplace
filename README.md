@@ -48,7 +48,7 @@
 
 1. [秋水Thinking](http://www.cnblogs.com/hnrainll/category/234345.html)      
 2. [廖雪峰](http://www.liaoxuefeng.com/)    
-3. [守望者-Watchmen](http://watchmen.cn/portal.php)
+3. [守望者-Watchmen](http://watchmen.cn/portal.php)  
 >Linux高级程序设计讲解者
 
 ---
