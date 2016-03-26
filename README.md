@@ -4,6 +4,9 @@
 
 1. [W3school](http://www.w3school.com.cn/)
 2. [PHP手册(中文版)](http://php.net/manual/zh/)
+3. [cplusplus](http://www.cplusplus.com/)
+4. [伯乐在线文档](https://github.com/jobbole)
+5. [计算机编程类中文书籍](https://github.com/juedaiyuer/free-programming-books-zh_CN)
 
 ---
 
@@ -20,6 +23,8 @@
 1. [网易云课堂](http://study.163.com/)
 2. [慕课网](http://www.imooc.com/)
 3. [实验楼](https://www.shiyanlou.com/)
+4. [csdn](http://www.csdn.net/)
+5. [博客园](http://www.cnblogs.com/)
 
 ---
 
@@ -27,26 +32,40 @@
 1. markdown web版:简书
 [简书](http://www.jianshu.com/)
 
+
+*画流程图*
+
+1. 在线processon
+2. visio
+ 
+
+
 ---
 
 ##道友##
 
 **博客园**
-[秋水Thinking](http://www.cnblogs.com/hnrainll/category/234345.html)
 
+1. [秋水Thinking](http://www.cnblogs.com/hnrainll/category/234345.html)      
+2. [廖雪峰](http://www.liaoxuefeng.com/)    
+3. [守望者-Watchmen](http://watchmen.cn/portal.php)  
+
+>Linux高级程序设计讲解者
 
 ---
 
 ##使用工具##
 
-1. github (高度整理的知识仓库)
-2. csdn (整理度高)
-3. evernote (抓取资料,整理度尚可,笔记程度一般)
+1. github 
+2. csdn 
+3. evernote 
 
->浏览器插件:evernote web clipper
+>浏览器插件:evernote web clipper  
+>[马克飞象](https://maxiang.io/)  
 
 
-4. 百度云 (整理度最差,资料存放地)
+
+4. 百度云 
 
 ---
 
