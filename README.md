@@ -56,21 +56,23 @@
 
 ##使用工具##
 
-1. github 
-2. csdn 
-3. evernote 
+- github 
+- csdn 
+- evernote 
 
 >浏览器插件:evernote web clipper  
 >[马克飞象](https://maxiang.io/)  
 
 
 
-4. 百度云 
+- 百度云 
 
 ---
 
-1. Vim
-2. Sublime Text
+##编辑器##
+
+-  Vim
+-  Sublime Text
 
 
 
