@@ -73,6 +73,7 @@
 
 -  Vim
 -  Sublime Text
+-  Eclipse
 
 
 
