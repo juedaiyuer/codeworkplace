@@ -7,6 +7,7 @@
 3. [cplusplus](http://www.cplusplus.com/)
 4. [伯乐在线文档](https://github.com/jobbole)
 5. [计算机编程类中文书籍](https://github.com/juedaiyuer/free-programming-books-zh_CN)
+6. [Java在线中文API](http://www.yq1012.com/api/)
 
 ---
 
