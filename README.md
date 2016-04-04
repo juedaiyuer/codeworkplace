@@ -29,6 +29,7 @@
 6. [Stackoverflow](http://stackoverflow.com/)
 7. [Quora](https://www.quora.com/)
 8. [HackerNews](https://news.ycombinator.com/)
+9. [Reddit](https://www.reddit.com/)
 
 ---
 
@@ -84,7 +85,7 @@
 
 ---
 
->Stackoverflow Hacknews Reddit 驻足的相对较少，相信随着时间会初步深入
+
 
 
 
