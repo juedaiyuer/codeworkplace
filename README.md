@@ -26,6 +26,9 @@
 3. [实验楼](https://www.shiyanlou.com/)
 4. [csdn](http://www.csdn.net/)
 5. [博客园](http://www.cnblogs.com/)
+6. [Stackoverflow](http://stackoverflow.com/)
+7. [Quora](https://www.quora.com/)
+8. [HackerNews](https://news.ycombinator.com/)
 
 ---
 
