@@ -1,4 +1,4 @@
-package com.imooc.reflect;
+package reflect;
 
 public class ClassDemo1 {
 	public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class ClassDemo1 {
 		//第三种表达方式
 		Class c3 = null;
 		try {
-			c3 = Class.forName("com.imooc.reflect.Foo");
+			c3 = Class.forName("reflect.Foo");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
