@@ -55,6 +55,7 @@
 2. [廖雪峰](http://www.liaoxuefeng.com/)    
 3. [守望者-Watchmen](http://watchmen.cn/portal.php)  
 4. [运维生存时间](https://www.ttlsa.com/)
+5. [竹子-博客](http://www.cnblogs.com/peida/)
 
 >Linux高级程序设计讲解者
 
