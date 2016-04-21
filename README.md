@@ -8,6 +8,7 @@
 4. [伯乐在线文档](https://github.com/jobbole)
 5. [计算机编程类中文书籍](https://github.com/juedaiyuer/free-programming-books-zh_CN)
 6. [Java在线中文API](http://www.yq1012.com/api/)
+7. [菜鸟要飞](http://www.newbiefly.com/)
 
 ---
 
@@ -40,7 +41,7 @@
 
 *画流程图*
 
-1. 在线processon
+1. [在线processon](https://www.processon.com/)
 2. visio
  
 
@@ -55,6 +56,7 @@
 2. [廖雪峰](http://www.liaoxuefeng.com/)    
 3. [守望者-Watchmen](http://watchmen.cn/portal.php)  
 4. [运维生存时间](https://www.ttlsa.com/)
+5. [竹子-博客](http://www.cnblogs.com/peida/)
 
 >Linux高级程序设计讲解者
 
