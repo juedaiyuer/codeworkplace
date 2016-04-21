@@ -85,7 +85,9 @@
 
 ---
 
+##研究资料##
 
+1. [动画展示各种路径搜索算法](http://netsmell.com/post/pathfinding.html)
 
 
 
