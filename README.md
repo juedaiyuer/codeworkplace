@@ -45,6 +45,13 @@
 1. [在线processon](https://www.processon.com/)
 2. visio
  
+---
+
+##绘图软件##
+
+- Inkscape(矢量图形编辑软件,linux平台可用)
+- GIMP(linux平台可用)
+
 
 
 ---
