@@ -31,6 +31,7 @@
 7. [Quora](https://www.quora.com/)
 8. [HackerNews](https://news.ycombinator.com/)
 9. [Reddit](https://www.reddit.com/)
+10. [谷歌社区](https://plus.google.com/communities)
 
 ---
 
