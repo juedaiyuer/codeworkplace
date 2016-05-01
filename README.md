@@ -66,6 +66,7 @@
 3. [守望者-Watchmen](http://watchmen.cn/portal.php)  
 4. [运维生存时间](https://www.ttlsa.com/)
 5. [竹子-博客](http://www.cnblogs.com/peida/)
+6. [博客园-孤傲苍狼](http://www.cnblogs.com/xdp-gacl/)
 
 >Linux高级程序设计讲解者
 
