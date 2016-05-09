@@ -35,6 +35,7 @@
 10. [谷歌社区](https://plus.google.com/communities)
 11. [脚本之家](http://www.jb51.net/)
 
+
 ---
 
 ##写作工具##
@@ -97,8 +98,12 @@
 
 -  Vim
 -  Sublime Text
--  Eclipse
 -  Emacs
+
+**IDE**
+
+- eclipse
+- Myeclipse
 
 
 ---
@@ -107,5 +112,9 @@
 
 1. [动画展示各种路径搜索算法](http://netsmell.com/post/pathfinding.html)
 
+---
 
+##极客##
+
+1. [电子发烧友](http://www.elecfans.com/)
 
