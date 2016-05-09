@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="entity.Grade" table="grade">
+		<id name="gid" column="gid" type="java.lang.Integer">
+			<generator class="increment"></generator>
+		</id>
+		<property name="gname" type="java.lang.String">
+			<column name="gname" length="20" not-null="true"></column>
+		</property>
+		<property name="gdesc">
+			<column name="gdesc"></column>
+		</property>
+		<!-- 配置一对多关联关系 -->
+		<set name="students" table="student">
+			<key column="gid"></key>
+			<one-to-many class="entity.Student"/>
+		</set>
+	</class>
+</hibernate-mapping>

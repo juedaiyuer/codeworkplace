@@ -33,6 +33,7 @@
 8. [HackerNews](https://news.ycombinator.com/)
 9. [Reddit](https://www.reddit.com/)
 10. [谷歌社区](https://plus.google.com/communities)
+11. [脚本之家](http://www.jb51.net/)
 
 ---
 
