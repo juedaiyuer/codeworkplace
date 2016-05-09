@@ -69,7 +69,9 @@
 5. [竹子-博客](http://www.cnblogs.com/peida/)
 6. [博客园-孤傲苍狼](http://www.cnblogs.com/xdp-gacl/)
 
->Linux高级程序设计讲解者
+**注解**
+
+>Linux高级程序设计讲解者---Watchmen
 
 ---
 
@@ -78,6 +80,9 @@
 - github 
 - csdn 
 - evernote 
+- 为知笔记
+
+**注解**
 
 >浏览器插件:evernote web clipper  
 >[马克飞象](https://maxiang.io/)  
