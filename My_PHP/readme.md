@@ -57,3 +57,9 @@ form.php中html代码单独存在的时候,表单显示正常,前面加入php代
 1. 设定显示页码5
 2. 显示页码前后的省略号显示
 3. 页码灰色显示
+
+##ThinkPHPDevelopmentOfStation##
+
+>前端到后台ThinkPHP开发整站  
+
+
