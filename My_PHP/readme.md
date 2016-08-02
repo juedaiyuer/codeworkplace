@@ -62,4 +62,6 @@ form.php中html代码单独存在的时候,表单显示正常,前面加入php代
 
 >前端到后台ThinkPHP开发整站  
 
+>新闻咨询类管理系统(News management system)  
+
 
