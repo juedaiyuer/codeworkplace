@@ -1,0 +1,61 @@
+	package juedaiyuer.test;
+
+	import java.util.List;
+
+	import org.apache.ibatis.session.SqlSession;
+	import org.junit.Test;
+
+	import juedaiyuer.entity.User;
+	import juedaiyuer.mapping.UserMapperI;
+	import juedaiyuer.util.MyBatisUtil;
+
+	/**
+	 * @author juedaiyuer
+	 * 
+	 * 1. Mybatis基于注解实现CURD单元测试
+	 * 
+	 * */
+
+	public class TestCURDAnnotationMapper {
+	
+		@Test
+		public void testAdd()
+		{
+			SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+			UserMapperI mapper = sqlSession.getMapper(UserMapperI.class);
+		
+			User user = new User();
+			user.setName("秋意寒");
+			user.setAge(21);
+		
+			int add = mapper.add(user);
+		
+			sqlSession.close();
+			System.out.println(add);
+		}
+	
+		@Test
+		public void testDelete()
+		{
+			SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+			UserMapperI mapper = sqlSession.getMapper(UserMapperI.class);
+		
+			int retResult = mapper.deleteById(6);
+		
+			sqlSession.close();
+			System.out.println(retResult);
+		}
+	
+		@Test
+		public void testGetAll()
+		{
+			SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+			UserMapperI mapper = sqlSession.getMapper(UserMapperI.class);
+		
+			List<User> userList = mapper.getAll();
+		
+			sqlSession.close();
+			System.out.println(userList);
+		}
+	
+	}

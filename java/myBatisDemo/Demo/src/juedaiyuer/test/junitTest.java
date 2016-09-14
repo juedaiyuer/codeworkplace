@@ -1,0 +1,77 @@
+package juedaiyuer.test;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+
+import juedaiyuer.entity.User;
+import juedaiyuer.util.MyBatisUtil;
+
+import org.junit.Test;
+
+
+//MyBatis的CURD---基于XML实现
+
+public class junitTest {
+
+	@Test
+	public void testAdd() {
+		// 设定自动提交事务,不用进行sqlSession.commit()操作
+		SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+		String statement = "juedaiyuer.mapping.userMapper.addUser"; // 映射sql的标识字符串
+		User user = new User();
+//		user.setName("王九九");
+//		user.setAge(20);
+
+//		user.setName("小红帽");
+//		user.setAge(20);
+		
+		user.setName("厉倾城");
+		user.setAge(22);
+
+		// 执行插入操作
+		int retResult = sqlSession.insert(statement, user);
+		sqlSession.close();
+		System.out.println(retResult);
+	}
+
+	@Test
+	public void testUpdate() {
+		SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+		String statement = "juedaiyuer.mapping.userMapper.updateUser"; // 映射sql的标识字符串
+		User user = new User();
+		user.setId(3);
+		user.setName("王九九");
+		user.setAge(21);
+		// 执行更改操作
+		int retResult = sqlSession.update(statement, user);
+
+		sqlSession.close();
+		System.out.println(retResult);
+
+	}
+
+	@Test
+	public void testDelete() {
+		SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+		String statement = "juedaiyuer.mapping.userMapper.deleteUser"; // 映射sql的标识字符串
+
+		int retResult = sqlSession.update(statement, 5);
+
+		sqlSession.close();
+		System.out.println(retResult);
+	}
+
+
+	@Test
+	public void testGetAll() {
+		SqlSession sqlSession = MyBatisUtil.getSqlSession(true);
+		String statement = "juedaiyuer.mapping.userMapper.getAllUsers"; // 映射sql的标识字符串
+
+		List<User> UserList = sqlSession.selectList(statement);
+
+		sqlSession.close();
+		System.out.println(UserList);
+
+	}
+}
